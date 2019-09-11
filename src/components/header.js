@@ -6,7 +6,10 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `rebeccapurple`,
+      marginTop: "0",
+      width: "100%",
       marginBottom: `1.45rem`,
+      height: "10vh",
     }}
   >
     <div
@@ -16,17 +19,23 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <h3 style={{ textAlign: "center", float: "left" }}>The 🐈 Blog</h3>
+      <ul
+        style={{
+          float: "right",
+          display: "flex",
+          listStyle: "none",
+        }}
+      >
+        <li style={{ marginRight: "20px" }}>
+          {" "}
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          {" "}
+          <Link to="/blog">Blog</Link>
+        </li>
+      </ul>
     </div>
   </header>
 )
