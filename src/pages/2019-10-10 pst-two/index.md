@@ -1,6 +1,6 @@
 ---
 title: "Meet Celeste"
-path: "/post-one"
+path: /post-one
 author: "Seyifunmi"
 date: "2019-10-10"
 img: "https://i.imgur.com/1lkIKUj.jpg"

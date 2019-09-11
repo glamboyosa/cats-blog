@@ -1,6 +1,6 @@
 ---
 title: "Meet Fluffles"
-path: "/post-two"
+path: /post-two
 author: "Mariam"
 date: "2019-10-10"
 img: "https://i.imgur.com/6RRhXoU.jpg"
