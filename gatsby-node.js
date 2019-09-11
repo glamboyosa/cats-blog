@@ -16,7 +16,6 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               date
               author
             }
-            excerpt
           }
         }
       }
