@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => (
             <img style={{ width: "20%" }} src={post.node.frontmatter.img} />
           </div>
           <br />
-          <Link className="link" to={`/${post.node.frontmatter.path}`}>
+          <Link className="link" to={`${post.node.frontmatter.path}`}>
             Read Now
           </Link>
         </div>
