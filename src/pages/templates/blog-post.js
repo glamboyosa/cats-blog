@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
-export default function Template({ data }) {
+const Template = ({ data }) => {
   const post = data.markdownRemark
 
   return (
@@ -35,3 +35,4 @@ export const individualQuery = graphql`
     }
   }
 `
+export default Template
